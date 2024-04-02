@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_3945231_b816_4e14_b2d0_5c24d83ad38a"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_gravity="center_horizontal"
+        android:text="History Through Age"
+        android:textAlignment="center"
+        android:textColor="#F3F0F0"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="217dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Please enter your age"
+        android:textAlignment="center"
+        android:textColor="#EDE4E4" />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="121dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="number"
+        android:text="e.g 29"
+        android:textAlignment="center"
+        android:textColor="#B8B3B3" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="42dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="298dp">
+
+        <TextView
+            android:id="@+id/resultsView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Results will be generated here"
+            android:textAlignment="center"
+            android:textColor="#F4F2F2"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/generateButton"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A2B8B5"
+            android:text="Generate" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="#A2B8B5"
+            android:text="clear" />
+    </FrameLayout>
+
+</LinearLayout>
