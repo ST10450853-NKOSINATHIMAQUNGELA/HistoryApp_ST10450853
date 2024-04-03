@@ -57,7 +57,7 @@
             android:layout_height="match_parent"
             android:text="Results will be generated here"
             android:textAlignment="center"
-            android:textColor="#F4F2F2"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
     </FrameLayout>
 
@@ -78,8 +78,8 @@
 
         <Button
             android:id="@+id/clearButton"
-            android:layout_width="111dp"
-            android:layout_height="wrap_content"
+            android:layout_width="126dp"
+            android:layout_height="match_parent"
             android:layout_gravity="right"
             android:backgroundTint="#A2B8B5"
             android:text="clear" />
