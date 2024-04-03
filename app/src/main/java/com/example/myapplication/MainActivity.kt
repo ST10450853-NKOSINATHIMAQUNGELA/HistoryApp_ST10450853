@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 {
                     //The in statement used here runs when the users inputs the same age as one of the historical figures'.
                     in figureAge -> { val history = HistoricalFigures.values().find {it.age == userAge}
-                        listOf("You are $userAge old, the same age as " + "${history?.description?:"event"} ")
+                        listOf("You are $userAge years old, the same age as " + "${history?.description?:"event"} ")
                     }
 
                     //The in statement used here runs when the user inputs an age that's 1 year younger than any historical figures' age.
