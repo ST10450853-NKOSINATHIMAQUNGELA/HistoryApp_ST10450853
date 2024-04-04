@@ -28,7 +28,7 @@
         android:layout_width="217dp"
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
-        android:text="Please enter your age"
+        android:text="Please enter your age ( 20 - 100 )"
         android:textAlignment="center"
         android:textColor="#EDE4E4" />
 
