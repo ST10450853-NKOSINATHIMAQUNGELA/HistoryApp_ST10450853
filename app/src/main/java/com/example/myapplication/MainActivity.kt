@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         EVENT_9(76, "Albert Einstein who was a German physicist that won a nobel peace prize for his theory of relativity. He died at the age of 76"),
         EVENT_10(20, "Joan of Arc who was a defender of France and later became a military leader despite her being a woman. She died at the age of 20 "),
         EVENT_11(84, "Pope John Paul II who was the sovereign leader of the Vatican city in Rome, Italy. He died at the age of 84"),
+
     }
 
 
